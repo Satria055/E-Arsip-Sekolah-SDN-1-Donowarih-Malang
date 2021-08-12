@@ -1,0 +1,41 @@
+Aplikasi e-Arsip ini dibuat untuk mempermudah melakukan pengarsipkan oleh tenaga administrasi sekolah.
+
+
+=================== CARA INSTALL ======================
+1. Silahkan download & Install Aplikasi XAMPP di (https://www.apachefriends.org) kemudian buka aplikasi nya dan jalankan (Run) MySQL & Apache
+2. Download Source e-Arsip.zip kemudian ekstrak ke dalam folder "C\xampp\htdocs"
+3. Kemudian buka browser (mozila/chrome) dan ketikan "localhost\phpmyadmin" pada url bar untuk menambahkan database kita.
+4. Buat database dengan nama "db_arsip" kemudian import file db_arsip yang tersedia pada folder
+ hasil download tadi.
+5. setelah selesai enambahkan database, ketikan kembali "localhost" pada url bar, lalu pilih nama folder kita
+6. Untuk username & password default adalah "".
+
+Untuk Login Murid / Alumni / Wali Murid
+
+Username : murid
+password : murid
+level   : murid
+
+username : alumni
+password : alumni
+level : alumni
+
+username : tika
+password : 12345
+Level : wali murid
+
+
+Untuk Login Admin / Guru 
+
+http://localhost/namafolder/Login
+
+Username : admin 
+Password : admin
+level    : admin
+
+username : guru
+passord  : guru
+level    : guru
+
+
+

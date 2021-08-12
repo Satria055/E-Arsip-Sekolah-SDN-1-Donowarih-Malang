@@ -1,0 +1,59 @@
+body{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	
+	background: #fff;
+}
+
+.panel-merah{
+	border:1px solid #0098DA;
+	padding: 20px;
+}
+
+.bg-merah{
+	background: #D9534F;
+	color: #fff;
+}
+
+.login-header{
+	text-align: center;
+	height: 70px;
+}
+
+.login-header img{
+	line-height: 50px;
+	width: 200px;
+}
+
+.form-login{
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	margin-top: 20px;
+	background: #fff;
+	outline: none;
+	border:0;
+	color:#888;
+	border-bottom: 1px dashed #0098DA;
+}
+
+.form-login:hover{
+	color: #0098DA;
+}
+
+.tombol{
+	margin-top: 30px;
+	height: 35px;
+	width: 100%;
+	background: #0098DA;
+	color: #fff;
+	outline: none;
+	border:0;
+}
+
+hr{
+	border-top: 1px solid #D9534F;
+}

@@ -1,0 +1,39 @@
+/*Css for preloader*/
+.preloader{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fff;
+}
+.preloader .loading{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font: 14px arial;
+}
+
+/*Css for notification*/
+#notifications{
+  	cursor: pointer;
+  	position: fixed;
+  	right: 0px;
+  	z-index: 9999;
+  	bottom: -20px;
+  	margin-bottom: 22px;
+  	margin-right: 15px;
+  	min-width: 30px;
+}
+    #notif_hapus{
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+    z-index: 9999;
+    bottom: -20px;
+    margin-bottom: 22px;
+    margin-right: 15px;
+    min-width: 30px;
+}
